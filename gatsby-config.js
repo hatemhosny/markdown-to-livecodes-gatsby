@@ -27,7 +27,9 @@ module.exports = {
         gatsbyRemarkPlugins: [
           {
             resolve: "gatsby-remark-livecodes",
-            options: { appUrl: "https://dev.livecodes.io" },
+            options: {
+              /* options */
+            },
           },
         ],
       },
@@ -72,7 +74,9 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-livecodes`,
-            options: { appUrl: "https://dev.livecodes.io" },
+            options: {
+              /* options */
+            },
           },
           `gatsby-remark-prismjs`,
         ],
